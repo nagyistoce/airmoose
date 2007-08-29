@@ -1,0 +1,80 @@
+{
+    IBClasses = (
+        {CLASS = FirstResponder; LANGUAGE = ObjC; SUPERCLASS = NSObject; }, 
+        {
+            ACTIONS = {
+                clearLogSelected = id; 
+                curConnStatSelected = id; 
+                dropNetworkSelected = id; 
+                gotoN9KDX = id; 
+                gotoN9Site = id; 
+                gotoSBCUSite = id; 
+                joinAction = id; 
+                joinCancel = id; 
+                joinNetworkSelected = id; 
+                openLogSelected = id; 
+                prefsSelected = id; 
+                rowSelected = id; 
+                saveLogSelected = id; 
+                showLogSelected = id; 
+                startAnimation = id; 
+                stopAnimation = id; 
+                toggleScanSelected = id; 
+            }; 
+            CLASS = MainController; 
+            LANGUAGE = ObjC; 
+            OUTLETS = {
+                curConnComm = NSTextField; 
+                curConnLink = NSTextField; 
+                curConnMAC = NSTextField; 
+                curConnName = NSTextField; 
+                curConnNoise = NSTextField; 
+                curConnSignal = NSTextField; 
+                entryView = NSTableView; 
+                joinConnectBtn = NSButton; 
+                joinPassFld = NSTextField; 
+                joinWindow = NSWindow; 
+                logView = NSTableView; 
+                logWindow = NSWindow; 
+                mainWindow = NSWindow; 
+                prefControl = id; 
+                prefWindow = NSWindow; 
+                snooch = NSProgressIndicator; 
+                statDrawer = NSDrawer; 
+                statusFld = NSTextField; 
+                statusPrg = NSProgressIndicator; 
+            }; 
+            SUPERCLASS = NSObject; 
+        }, 
+        {
+            ACTIONS = {
+                cancelClicked = id; 
+                intervalChanged = id; 
+                saveClicked = id; 
+                showClicked = id; 
+            }; 
+            CLASS = PrefController; 
+            LANGUAGE = ObjC; 
+            OUTLETS = {
+                cancelBtn = NSButton; 
+                intervalFld = NSTextField; 
+                intervalSld = NSSlider; 
+                joinBtn = NSButton; 
+                labelFld = NSTextField; 
+                mainWin = NSWindow; 
+                prefWin = NSWindow; 
+                saveBtn = NSButton; 
+                secondFld = NSTextField; 
+                soundBtn = NSButton; 
+            }; 
+            SUPERCLASS = NSObject; 
+        }, 
+        {
+            CLASS = ToolbarController; 
+            LANGUAGE = ObjC; 
+            OUTLETS = {mainControl = id; statDrawer = NSDrawer; window = NSWindow; }; 
+            SUPERCLASS = NSObject; 
+        }
+    ); 
+    IBVersion = 1; 
+}

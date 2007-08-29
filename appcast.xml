@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss>
+	<channel>
+		<title>AirMoose Appcast</title>
+		<link>http://airmoose.googlecode.com/files/appcast.xml</link>
+		<description>Snoogins</description>
+		<language>en</language>
+		<item>
+			<title>AirMoose Sparkley Test</title>
+			<description>http://airmoose.googlecode.com/files/rnotes.html</description>
+			<pubDate>Wed, 29 August 11:00:00 +0000</pubDate>
+			<enclosure url="http://airmoose.googlecode.com/files/AirMoose.app.zip"
+				length="650000"
+				type="application/octet-stream"/>
+		</item>
+	</channel>
+</rss>
