@@ -1,6 +1,4 @@
 #labels Featured
-= Change-log =
-
 AirMoose is presently using a very simple incrementing number for versioning, this does not mean that "Version 1" is of a 1.0-release standard.
 
 ===Version 1===
