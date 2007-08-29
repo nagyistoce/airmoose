@@ -1,0 +1,589 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 42;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		837048F007C4261500D1BB0E /* ASOutput.h in Headers */ = {isa = PBXBuildFile; fileRef = 837048EE07C4261500D1BB0E /* ASOutput.h */; };
+		837048F107C4261500D1BB0E /* ASOutput.m in Sources */ = {isa = PBXBuildFile; fileRef = 837048EF07C4261500D1BB0E /* ASOutput.m */; };
+		8375411707C53B66000FF7A9 /* PrefController.h in Headers */ = {isa = PBXBuildFile; fileRef = 8375411507C53B66000FF7A9 /* PrefController.h */; };
+		8375411807C53B66000FF7A9 /* PrefController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8375411607C53B66000FF7A9 /* PrefController.m */; };
+		8375E13807C17672003EEC1E /* ASCore.h in Headers */ = {isa = PBXBuildFile; fileRef = 8375E13607C17672003EEC1E /* ASCore.h */; };
+		8375E13907C17672003EEC1E /* ASCore.m in Sources */ = {isa = PBXBuildFile; fileRef = 8375E13707C17672003EEC1E /* ASCore.m */; };
+		8375E1CA07C19075003EEC1E /* Apple80211.h in Headers */ = {isa = PBXBuildFile; fileRef = 8375E1C907C19075003EEC1E /* Apple80211.h */; };
+		8375E1E907C190E5003EEC1E /* Apple80211.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8375E1E807C190E5003EEC1E /* Apple80211.framework */; };
+		8375E1EF07C190F9003EEC1E /* CoreFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8375E1EE07C190F9003EEC1E /* CoreFoundation.framework */; };
+		8375E2AE07C1953F003EEC1E /* MainController.h in Headers */ = {isa = PBXBuildFile; fileRef = 8375E2AC07C1953F003EEC1E /* MainController.h */; };
+		8375E2AF07C1953F003EEC1E /* MainController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8375E2AD07C1953F003EEC1E /* MainController.m */; };
+		8375E44407C1CAB9003EEC1E /* ToolbarController.h in Headers */ = {isa = PBXBuildFile; fileRef = 8375E44207C1CAB9003EEC1E /* ToolbarController.h */; };
+		8375E44507C1CAB9003EEC1E /* ToolbarController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8375E44307C1CAB9003EEC1E /* ToolbarController.m */; };
+		8375E4F207C1DC64003EEC1E /* Stat.tif in Resources */ = {isa = PBXBuildFile; fileRef = 8375E4E907C1DC63003EEC1E /* Stat.tif */; };
+		8375E4F307C1DC64003EEC1E /* Clean.tif in Resources */ = {isa = PBXBuildFile; fileRef = 8375E4EA07C1DC64003EEC1E /* Clean.tif */; };
+		8375E4F407C1DC64003EEC1E /* Drop.tif in Resources */ = {isa = PBXBuildFile; fileRef = 8375E4EB07C1DC64003EEC1E /* Drop.tif */; };
+		8375E4F507C1DC65003EEC1E /* Join.tif in Resources */ = {isa = PBXBuildFile; fileRef = 8375E4EC07C1DC64003EEC1E /* Join.tif */; };
+		8375E4F607C1DC65003EEC1E /* Open.tif in Resources */ = {isa = PBXBuildFile; fileRef = 8375E4ED07C1DC64003EEC1E /* Open.tif */; };
+		8375E4F707C1DC65003EEC1E /* Pref.tif in Resources */ = {isa = PBXBuildFile; fileRef = 8375E4EE07C1DC64003EEC1E /* Pref.tif */; };
+		8375E4F807C1DC65003EEC1E /* Save.tif in Resources */ = {isa = PBXBuildFile; fileRef = 8375E4EF07C1DC64003EEC1E /* Save.tif */; };
+		8375E4F907C1DC65003EEC1E /* Toggle.tif in Resources */ = {isa = PBXBuildFile; fileRef = 8375E4F007C1DC64003EEC1E /* Toggle.tif */; };
+		8375E4FA07C1DC65003EEC1E /* Show.tif in Resources */ = {isa = PBXBuildFile; fileRef = 8375E4F107C1DC64003EEC1E /* Show.tif */; };
+		838630D107C6D29F003A4A10 /* Vendor.plist in Resources */ = {isa = PBXBuildFile; fileRef = 838630D007C6D29F003A4A10 /* Vendor.plist */; };
+		842792E00C7300F400A3B301 /* AirMooseDocIcon.icns in Resources */ = {isa = PBXBuildFile; fileRef = 842792DF0C7300F400A3B301 /* AirMooseDocIcon.icns */; };
+		84296BA60C71DB8900741750 /* Credits.html in Resources */ = {isa = PBXBuildFile; fileRef = 84296BA50C71DB8900741750 /* Credits.html */; };
+		844975530C79A5B3001AAB7C /* AlertWep.aiff in Resources */ = {isa = PBXBuildFile; fileRef = 844975520C79A5B3001AAB7C /* AlertWep.aiff */; };
+		844975550C79A5B4001AAB7C /* AlertNoWep.aiff in Resources */ = {isa = PBXBuildFile; fileRef = 844975540C79A5B4001AAB7C /* AlertNoWep.aiff */; };
+		8456791F0C6CB0D9005BE43A /* stop.tif in Resources */ = {isa = PBXBuildFile; fileRef = 8456791E0C6CB0D9005BE43A /* stop.tif */; };
+		84AB01B60C8572DB0024A334 /* Sparkle.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 84AB01B50C8572DB0024A334 /* Sparkle.framework */; };
+		84AB01D00C8573220024A334 /* Sparkle.framework in CopyFiles */ = {isa = PBXBuildFile; fileRef = 84AB01B50C8572DB0024A334 /* Sparkle.framework */; };
+		84C4D15F0C68A7BE0078E569 /* AirMoose.icns in Resources */ = {isa = PBXBuildFile; fileRef = 84C4D15E0C68A7BE0078E569 /* AirMoose.icns */; };
+		84ED532E0C8577B3006EF16C /* Growl.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 84ED532D0C8577B3006EF16C /* Growl.framework */; };
+		84ED53310C8577B5006EF16C /* Growl.framework in CopyFiles */ = {isa = PBXBuildFile; fileRef = 84ED532D0C8577B3006EF16C /* Growl.framework */; };
+		84ED54F20C857D6D006EF16C /* sparkle.png in Resources */ = {isa = PBXBuildFile; fileRef = 84ED54F10C857D6D006EF16C /* sparkle.png */; };
+		8D1107280486CEB800E47090 /* AirStumbler_Prefix.pch in Headers */ = {isa = PBXBuildFile; fileRef = 32CA4F630368D1EE00C91783 /* AirStumbler_Prefix.pch */; };
+		8D11072A0486CEB800E47090 /* MainMenu.nib in Resources */ = {isa = PBXBuildFile; fileRef = 29B97318FDCFA39411CA2CEA /* MainMenu.nib */; };
+		8D11072B0486CEB800E47090 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 089C165CFE840E0CC02AAC07 /* InfoPlist.strings */; };
+		8D11072D0486CEB800E47090 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 29B97316FDCFA39411CA2CEA /* main.m */; settings = {ATTRIBUTES = (); }; };
+		8D11072F0486CEB800E47090 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1058C7A1FEA54F0111CA2CBB /* Cocoa.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		84AB01B90C8572F40024A334 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				84ED53310C8577B5006EF16C /* Growl.framework in CopyFiles */,
+				84AB01D00C8573220024A334 /* Sparkle.framework in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		089C165DFE840E0CC02AAC07 /* English */ = {isa = PBXFileReference; fileEncoding = 10; lastKnownFileType = text.plist.strings; name = English; path = English.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		1058C7A1FEA54F0111CA2CBB /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = /System/Library/Frameworks/Cocoa.framework; sourceTree = "<absolute>"; };
+		29B97316FDCFA39411CA2CEA /* main.m */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		29B97319FDCFA39411CA2CEA /* English */ = {isa = PBXFileReference; lastKnownFileType = wrapper.nib; name = English; path = English.lproj/MainMenu.nib; sourceTree = "<group>"; };
+		29B97324FDCFA39411CA2CEA /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = /System/Library/Frameworks/AppKit.framework; sourceTree = "<absolute>"; };
+		29B97325FDCFA39411CA2CEA /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = /System/Library/Frameworks/Foundation.framework; sourceTree = "<absolute>"; };
+		32CA4F630368D1EE00C91783 /* AirStumbler_Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AirStumbler_Prefix.pch; sourceTree = "<group>"; };
+		837048EE07C4261500D1BB0E /* ASOutput.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ASOutput.h; sourceTree = "<group>"; };
+		837048EF07C4261500D1BB0E /* ASOutput.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ASOutput.m; sourceTree = "<group>"; };
+		8375411507C53B66000FF7A9 /* PrefController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PrefController.h; sourceTree = "<group>"; };
+		8375411607C53B66000FF7A9 /* PrefController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PrefController.m; sourceTree = "<group>"; };
+		8375E13607C17672003EEC1E /* ASCore.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ASCore.h; sourceTree = "<group>"; };
+		8375E13707C17672003EEC1E /* ASCore.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ASCore.m; sourceTree = "<group>"; };
+		8375E1C907C19075003EEC1E /* Apple80211.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; path = Apple80211.h; sourceTree = "<group>"; };
+		8375E1E807C190E5003EEC1E /* Apple80211.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Apple80211.framework; path = /System/Library/PrivateFrameworks/Apple80211.framework; sourceTree = "<absolute>"; };
+		8375E1EE07C190F9003EEC1E /* CoreFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreFoundation.framework; path = /System/Library/Frameworks/CoreFoundation.framework; sourceTree = "<absolute>"; };
+		8375E2AC07C1953F003EEC1E /* MainController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainController.h; sourceTree = "<group>"; };
+		8375E2AD07C1953F003EEC1E /* MainController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainController.m; sourceTree = "<group>"; };
+		8375E44207C1CAB9003EEC1E /* ToolbarController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ToolbarController.h; sourceTree = "<group>"; };
+		8375E44307C1CAB9003EEC1E /* ToolbarController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ToolbarController.m; sourceTree = "<group>"; };
+		8375E4E907C1DC63003EEC1E /* Stat.tif */ = {isa = PBXFileReference; lastKnownFileType = image.tiff; path = Stat.tif; sourceTree = "<group>"; };
+		8375E4EA07C1DC64003EEC1E /* Clean.tif */ = {isa = PBXFileReference; lastKnownFileType = image.tiff; path = Clean.tif; sourceTree = "<group>"; };
+		8375E4EB07C1DC64003EEC1E /* Drop.tif */ = {isa = PBXFileReference; lastKnownFileType = image.tiff; path = Drop.tif; sourceTree = "<group>"; };
+		8375E4EC07C1DC64003EEC1E /* Join.tif */ = {isa = PBXFileReference; lastKnownFileType = image.tiff; path = Join.tif; sourceTree = "<group>"; };
+		8375E4ED07C1DC64003EEC1E /* Open.tif */ = {isa = PBXFileReference; lastKnownFileType = image.tiff; path = Open.tif; sourceTree = "<group>"; };
+		8375E4EE07C1DC64003EEC1E /* Pref.tif */ = {isa = PBXFileReference; lastKnownFileType = image.tiff; path = Pref.tif; sourceTree = "<group>"; };
+		8375E4EF07C1DC64003EEC1E /* Save.tif */ = {isa = PBXFileReference; lastKnownFileType = image.tiff; path = Save.tif; sourceTree = "<group>"; };
+		8375E4F007C1DC64003EEC1E /* Toggle.tif */ = {isa = PBXFileReference; lastKnownFileType = image.tiff; path = Toggle.tif; sourceTree = "<group>"; };
+		8375E4F107C1DC64003EEC1E /* Show.tif */ = {isa = PBXFileReference; lastKnownFileType = image.tiff; path = Show.tif; sourceTree = "<group>"; };
+		838630D007C6D29F003A4A10 /* Vendor.plist */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = text.xml; path = Vendor.plist; sourceTree = "<group>"; };
+		842792DF0C7300F400A3B301 /* AirMooseDocIcon.icns */ = {isa = PBXFileReference; lastKnownFileType = image.icns; path = AirMooseDocIcon.icns; sourceTree = "<group>"; };
+		84296BA50C71DB8900741750 /* Credits.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = Credits.html; sourceTree = "<group>"; };
+		844975520C79A5B3001AAB7C /* AlertWep.aiff */ = {isa = PBXFileReference; lastKnownFileType = audio.aiff; path = AlertWep.aiff; sourceTree = "<group>"; };
+		844975540C79A5B4001AAB7C /* AlertNoWep.aiff */ = {isa = PBXFileReference; lastKnownFileType = audio.aiff; path = AlertNoWep.aiff; sourceTree = "<group>"; };
+		8456791E0C6CB0D9005BE43A /* stop.tif */ = {isa = PBXFileReference; lastKnownFileType = image.tiff; path = stop.tif; sourceTree = "<group>"; };
+		84AB01B50C8572DB0024A334 /* Sparkle.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Sparkle.framework; sourceTree = "<group>"; };
+		84C4D15E0C68A7BE0078E569 /* AirMoose.icns */ = {isa = PBXFileReference; lastKnownFileType = image.icns; path = AirMoose.icns; sourceTree = "<group>"; };
+		84ED532D0C8577B3006EF16C /* Growl.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Growl.framework; sourceTree = "<group>"; };
+		84ED54F10C857D6D006EF16C /* sparkle.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = sparkle.png; sourceTree = "<group>"; };
+		8D1107310486CEB800E47090 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		8D1107320486CEB800E47090 /* AirMoose.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AirMoose.app; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8D11072E0486CEB800E47090 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8D11072F0486CEB800E47090 /* Cocoa.framework in Frameworks */,
+				8375E1E907C190E5003EEC1E /* Apple80211.framework in Frameworks */,
+				8375E1EF07C190F9003EEC1E /* CoreFoundation.framework in Frameworks */,
+				84AB01B60C8572DB0024A334 /* Sparkle.framework in Frameworks */,
+				84ED532E0C8577B3006EF16C /* Growl.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		080E96DDFE201D6D7F000001 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				8375410D07C53B48000FF7A9 /* PrefController */,
+				8375E43E07C1CAAA003EEC1E /* ToolbarController */,
+				8375E32707C1A42C003EEC1E /* AirStumblerOutput */,
+				8375E2A807C19532003EEC1E /* MainController */,
+				8375E13507C17654003EEC1E /* AirStumblerCore */,
+			);
+			name = Classes;
+			sourceTree = "<group>";
+		};
+		1058C7A0FEA54F0111CA2CBB /* Linked Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1058C7A1FEA54F0111CA2CBB /* Cocoa.framework */,
+			);
+			name = "Linked Frameworks";
+			sourceTree = "<group>";
+		};
+		1058C7A2FEA54F0111CA2CBB /* Other Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				8375E1EE07C190F9003EEC1E /* CoreFoundation.framework */,
+				8375E1E807C190E5003EEC1E /* Apple80211.framework */,
+				29B97325FDCFA39411CA2CEA /* Foundation.framework */,
+				29B97324FDCFA39411CA2CEA /* AppKit.framework */,
+			);
+			name = "Other Frameworks";
+			sourceTree = "<group>";
+		};
+		19C28FACFE9D520D11CA2CBB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8D1107320486CEB800E47090 /* AirMoose.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		29B97314FDCFA39411CA2CEA /* AirStumbler */ = {
+			isa = PBXGroup;
+			children = (
+				8375E1C507C19054003EEC1E /* Import */,
+				080E96DDFE201D6D7F000001 /* Classes */,
+				29B97315FDCFA39411CA2CEA /* Other Sources */,
+				29B97317FDCFA39411CA2CEA /* Resources */,
+				29B97323FDCFA39411CA2CEA /* Frameworks */,
+				19C28FACFE9D520D11CA2CBB /* Products */,
+			);
+			name = AirStumbler;
+			sourceTree = "<group>";
+		};
+		29B97315FDCFA39411CA2CEA /* Other Sources */ = {
+			isa = PBXGroup;
+			children = (
+				32CA4F630368D1EE00C91783 /* AirStumbler_Prefix.pch */,
+				29B97316FDCFA39411CA2CEA /* main.m */,
+			);
+			name = "Other Sources";
+			sourceTree = "<group>";
+		};
+		29B97317FDCFA39411CA2CEA /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				84ED54F10C857D6D006EF16C /* sparkle.png */,
+				838630D007C6D29F003A4A10 /* Vendor.plist */,
+				8375E4E907C1DC63003EEC1E /* Stat.tif */,
+				8375E4EA07C1DC64003EEC1E /* Clean.tif */,
+				8375E4EB07C1DC64003EEC1E /* Drop.tif */,
+				8375E4EC07C1DC64003EEC1E /* Join.tif */,
+				8375E4ED07C1DC64003EEC1E /* Open.tif */,
+				8375E4EE07C1DC64003EEC1E /* Pref.tif */,
+				8375E4EF07C1DC64003EEC1E /* Save.tif */,
+				8375E4F007C1DC64003EEC1E /* Toggle.tif */,
+				8375E4F107C1DC64003EEC1E /* Show.tif */,
+				8D1107310486CEB800E47090 /* Info.plist */,
+				089C165CFE840E0CC02AAC07 /* InfoPlist.strings */,
+				29B97318FDCFA39411CA2CEA /* MainMenu.nib */,
+				84C4D15E0C68A7BE0078E569 /* AirMoose.icns */,
+				8456791E0C6CB0D9005BE43A /* stop.tif */,
+				84296BA50C71DB8900741750 /* Credits.html */,
+				842792DF0C7300F400A3B301 /* AirMooseDocIcon.icns */,
+				844975520C79A5B3001AAB7C /* AlertWep.aiff */,
+				844975540C79A5B4001AAB7C /* AlertNoWep.aiff */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		29B97323FDCFA39411CA2CEA /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				84ED532D0C8577B3006EF16C /* Growl.framework */,
+				84AB01B50C8572DB0024A334 /* Sparkle.framework */,
+				1058C7A0FEA54F0111CA2CBB /* Linked Frameworks */,
+				1058C7A2FEA54F0111CA2CBB /* Other Frameworks */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		8375410D07C53B48000FF7A9 /* PrefController */ = {
+			isa = PBXGroup;
+			children = (
+				8375411507C53B66000FF7A9 /* PrefController.h */,
+				8375411607C53B66000FF7A9 /* PrefController.m */,
+			);
+			name = PrefController;
+			sourceTree = "<group>";
+		};
+		8375E13507C17654003EEC1E /* AirStumblerCore */ = {
+			isa = PBXGroup;
+			children = (
+				8375E13607C17672003EEC1E /* ASCore.h */,
+				8375E13707C17672003EEC1E /* ASCore.m */,
+			);
+			name = AirStumblerCore;
+			sourceTree = "<group>";
+		};
+		8375E1C507C19054003EEC1E /* Import */ = {
+			isa = PBXGroup;
+			children = (
+				8375E1C907C19075003EEC1E /* Apple80211.h */,
+			);
+			name = Import;
+			sourceTree = "<group>";
+		};
+		8375E2A807C19532003EEC1E /* MainController */ = {
+			isa = PBXGroup;
+			children = (
+				8375E2AC07C1953F003EEC1E /* MainController.h */,
+				8375E2AD07C1953F003EEC1E /* MainController.m */,
+			);
+			name = MainController;
+			sourceTree = "<group>";
+		};
+		8375E32707C1A42C003EEC1E /* AirStumblerOutput */ = {
+			isa = PBXGroup;
+			children = (
+				837048EE07C4261500D1BB0E /* ASOutput.h */,
+				837048EF07C4261500D1BB0E /* ASOutput.m */,
+			);
+			name = AirStumblerOutput;
+			sourceTree = "<group>";
+		};
+		8375E43E07C1CAAA003EEC1E /* ToolbarController */ = {
+			isa = PBXGroup;
+			children = (
+				8375E44207C1CAB9003EEC1E /* ToolbarController.h */,
+				8375E44307C1CAB9003EEC1E /* ToolbarController.m */,
+			);
+			name = ToolbarController;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		8D1107270486CEB800E47090 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8D1107280486CEB800E47090 /* AirStumbler_Prefix.pch in Headers */,
+				8375E13807C17672003EEC1E /* ASCore.h in Headers */,
+				8375E1CA07C19075003EEC1E /* Apple80211.h in Headers */,
+				8375E2AE07C1953F003EEC1E /* MainController.h in Headers */,
+				8375E44407C1CAB9003EEC1E /* ToolbarController.h in Headers */,
+				837048F007C4261500D1BB0E /* ASOutput.h in Headers */,
+				8375411707C53B66000FF7A9 /* PrefController.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		8D1107260486CEB800E47090 /* AirMoose */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8422B45E0C689768004DA37D /* Build configuration list for PBXNativeTarget "AirMoose" */;
+			buildPhases = (
+				8D1107270486CEB800E47090 /* Headers */,
+				8D1107290486CEB800E47090 /* Resources */,
+				8D11072C0486CEB800E47090 /* Sources */,
+				8D11072E0486CEB800E47090 /* Frameworks */,
+				84AB01B90C8572F40024A334 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = AirMoose;
+			productInstallPath = "$(HOME)/Applications";
+			productName = AirStumbler;
+			productReference = 8D1107320486CEB800E47090 /* AirMoose.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		29B97313FDCFA39411CA2CEA /* Project object */ = {
+			isa = PBXProject;
+			buildConfigurationList = 8422B4620C689768004DA37D /* Build configuration list for PBXProject "AirMoose" */;
+			hasScannedForEncodings = 1;
+			mainGroup = 29B97314FDCFA39411CA2CEA /* AirStumbler */;
+			projectDirPath = "";
+			targets = (
+				8D1107260486CEB800E47090 /* AirMoose */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		8D1107290486CEB800E47090 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8D11072A0486CEB800E47090 /* MainMenu.nib in Resources */,
+				8D11072B0486CEB800E47090 /* InfoPlist.strings in Resources */,
+				8375E4F207C1DC64003EEC1E /* Stat.tif in Resources */,
+				8375E4F307C1DC64003EEC1E /* Clean.tif in Resources */,
+				8375E4F407C1DC64003EEC1E /* Drop.tif in Resources */,
+				8375E4F507C1DC65003EEC1E /* Join.tif in Resources */,
+				8375E4F607C1DC65003EEC1E /* Open.tif in Resources */,
+				8375E4F707C1DC65003EEC1E /* Pref.tif in Resources */,
+				8375E4F807C1DC65003EEC1E /* Save.tif in Resources */,
+				8375E4F907C1DC65003EEC1E /* Toggle.tif in Resources */,
+				8375E4FA07C1DC65003EEC1E /* Show.tif in Resources */,
+				838630D107C6D29F003A4A10 /* Vendor.plist in Resources */,
+				84C4D15F0C68A7BE0078E569 /* AirMoose.icns in Resources */,
+				8456791F0C6CB0D9005BE43A /* stop.tif in Resources */,
+				84296BA60C71DB8900741750 /* Credits.html in Resources */,
+				842792E00C7300F400A3B301 /* AirMooseDocIcon.icns in Resources */,
+				844975530C79A5B3001AAB7C /* AlertWep.aiff in Resources */,
+				844975550C79A5B4001AAB7C /* AlertNoWep.aiff in Resources */,
+				84ED54F20C857D6D006EF16C /* sparkle.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8D11072C0486CEB800E47090 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8D11072D0486CEB800E47090 /* main.m in Sources */,
+				8375E13907C17672003EEC1E /* ASCore.m in Sources */,
+				8375E2AF07C1953F003EEC1E /* MainController.m in Sources */,
+				8375E44507C1CAB9003EEC1E /* ToolbarController.m in Sources */,
+				837048F107C4261500D1BB0E /* ASOutput.m in Sources */,
+				8375411807C53B66000FF7A9 /* PrefController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		089C165CFE840E0CC02AAC07 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				089C165DFE840E0CC02AAC07 /* English */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		29B97318FDCFA39411CA2CEA /* MainMenu.nib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				29B97319FDCFA39411CA2CEA /* English */,
+			);
+			name = MainMenu.nib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		8422B45F0C689768004DA37D /* Development */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUGGING_SYMBOLS = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(FRAMEWORK_SEARCH_PATHS_QUOTED_1)",
+					"$(FRAMEWORK_SEARCH_PATHS_QUOTED_2)",
+					"$(FRAMEWORK_SEARCH_PATHS_QUOTED_3)",
+					"$(FRAMEWORK_SEARCH_PATHS_QUOTED_4)",
+					"$(FRAMEWORK_SEARCH_PATHS_QUOTED_5)",
+				);
+				FRAMEWORK_SEARCH_PATHS_QUOTED_1 = "\"$(SYSTEM_LIBRARY_DIR)/PrivateFrameworks\"";
+				FRAMEWORK_SEARCH_PATHS_QUOTED_2 = "\"/Volumes/Growl-SDK/Frameworks\"";
+				FRAMEWORK_SEARCH_PATHS_QUOTED_3 = "\"$(SRCROOT)\"";
+				FRAMEWORK_SEARCH_PATHS_QUOTED_4 = "\"$(SRCROOT)\"";
+				FRAMEWORK_SEARCH_PATHS_QUOTED_5 = "\"$(SRCROOT)\"";
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_FIX_AND_CONTINUE = YES;
+				GCC_ENABLE_TRIGRAPHS = NO;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = AirStumbler_Prefix.pch;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = NO;
+				GCC_WARN_FOUR_CHARACTER_CONSTANTS = NO;
+				GCC_WARN_UNKNOWN_PRAGMAS = NO;
+				HEADER_SEARCH_PATHS = "";
+				INFOPLIST_FILE = Info.plist;
+				INSTALL_PATH = "$(HOME)/Applications";
+				LIBRARY_SEARCH_PATHS = "";
+				OPTIMIZATION_CFLAGS = "-O0";
+				OTHER_CFLAGS = "";
+				OTHER_LDFLAGS = "";
+				PRODUCT_NAME = AirMoose;
+				SECTORDER_FLAGS = "";
+				VERSIONING_SYSTEM = "apple-generic";
+				WARNING_CFLAGS = (
+					"-Wmost",
+					"-Wno-four-char-constants",
+					"-Wno-unknown-pragmas",
+				);
+				WRAPPER_EXTENSION = app;
+				ZERO_LINK = YES;
+			};
+			name = Development;
+		};
+		8422B4600C689768004DA37D /* Deployment */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COPY_PHASE_STRIP = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(FRAMEWORK_SEARCH_PATHS_QUOTED_1)",
+					"$(FRAMEWORK_SEARCH_PATHS_QUOTED_2)",
+					"$(FRAMEWORK_SEARCH_PATHS_QUOTED_3)",
+					"$(FRAMEWORK_SEARCH_PATHS_QUOTED_4)",
+					"$(FRAMEWORK_SEARCH_PATHS_QUOTED_5)",
+				);
+				FRAMEWORK_SEARCH_PATHS_QUOTED_1 = "\"$(SYSTEM_LIBRARY_DIR)/PrivateFrameworks\"";
+				FRAMEWORK_SEARCH_PATHS_QUOTED_2 = "\"/Volumes/Growl-SDK/Frameworks\"";
+				FRAMEWORK_SEARCH_PATHS_QUOTED_3 = "\"$(SRCROOT)\"";
+				FRAMEWORK_SEARCH_PATHS_QUOTED_4 = "\"$(SRCROOT)\"";
+				FRAMEWORK_SEARCH_PATHS_QUOTED_5 = "\"$(SRCROOT)\"";
+				GCC_ENABLE_FIX_AND_CONTINUE = NO;
+				GCC_ENABLE_TRIGRAPHS = NO;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = AirStumbler_Prefix.pch;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = NO;
+				GCC_WARN_FOUR_CHARACTER_CONSTANTS = NO;
+				GCC_WARN_UNKNOWN_PRAGMAS = NO;
+				HEADER_SEARCH_PATHS = "";
+				INFOPLIST_FILE = Info.plist;
+				INSTALL_PATH = "$(HOME)/Applications";
+				LIBRARY_SEARCH_PATHS = "";
+				OTHER_CFLAGS = "";
+				OTHER_LDFLAGS = "";
+				PRODUCT_NAME = AirMoose;
+				SECTORDER_FLAGS = "";
+				VERSIONING_SYSTEM = "apple-generic";
+				WARNING_CFLAGS = (
+					"-Wmost",
+					"-Wno-four-char-constants",
+					"-Wno-unknown-pragmas",
+				);
+				WRAPPER_EXTENSION = app;
+				ZERO_LINK = NO;
+			};
+			name = Deployment;
+		};
+		8422B4610C689768004DA37D /* Default */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CURRENT_PROJECT_VERSION = 1;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(FRAMEWORK_SEARCH_PATHS_QUOTED_1)",
+					"$(FRAMEWORK_SEARCH_PATHS_QUOTED_2)",
+					"$(FRAMEWORK_SEARCH_PATHS_QUOTED_3)",
+					"$(FRAMEWORK_SEARCH_PATHS_QUOTED_4)",
+					"$(FRAMEWORK_SEARCH_PATHS_QUOTED_5)",
+				);
+				FRAMEWORK_SEARCH_PATHS_QUOTED_1 = "\"$(SYSTEM_LIBRARY_DIR)/PrivateFrameworks\"";
+				FRAMEWORK_SEARCH_PATHS_QUOTED_2 = "\"/Volumes/Growl-SDK/Frameworks\"";
+				FRAMEWORK_SEARCH_PATHS_QUOTED_3 = "\"$(SRCROOT)\"";
+				FRAMEWORK_SEARCH_PATHS_QUOTED_4 = "\"$(SRCROOT)\"";
+				FRAMEWORK_SEARCH_PATHS_QUOTED_5 = "\"$(SRCROOT)\"";
+				GCC_ENABLE_TRIGRAPHS = NO;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = AirStumbler_Prefix.pch;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = NO;
+				GCC_WARN_FOUR_CHARACTER_CONSTANTS = NO;
+				GCC_WARN_UNKNOWN_PRAGMAS = NO;
+				HEADER_SEARCH_PATHS = "";
+				INFOPLIST_FILE = Info.plist;
+				INSTALL_PATH = "$(HOME)/Applications";
+				LIBRARY_SEARCH_PATHS = "";
+				OTHER_CFLAGS = "";
+				OTHER_LDFLAGS = "";
+				PRODUCT_NAME = AirMoose;
+				SECTORDER_FLAGS = "";
+				VERSIONING_SYSTEM = "apple-generic";
+				WARNING_CFLAGS = (
+					"-Wmost",
+					"-Wno-four-char-constants",
+					"-Wno-unknown-pragmas",
+				);
+				WRAPPER_EXTENSION = app;
+			};
+			name = Default;
+		};
+		8422B4630C689768004DA37D /* Development */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = (
+					ppc,
+					i386,
+				);
+				PREBINDING = NO;
+			};
+			name = Development;
+		};
+		8422B4640C689768004DA37D /* Deployment */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = (
+					ppc,
+					i386,
+				);
+				PREBINDING = NO;
+			};
+			name = Deployment;
+		};
+		8422B4650C689768004DA37D /* Default */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = (
+					ppc,
+					i386,
+				);
+				PREBINDING = NO;
+			};
+			name = Default;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		8422B45E0C689768004DA37D /* Build configuration list for PBXNativeTarget "AirMoose" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8422B45F0C689768004DA37D /* Development */,
+				8422B4600C689768004DA37D /* Deployment */,
+				8422B4610C689768004DA37D /* Default */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Default;
+		};
+		8422B4620C689768004DA37D /* Build configuration list for PBXProject "AirMoose" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8422B4630C689768004DA37D /* Development */,
+				8422B4640C689768004DA37D /* Deployment */,
+				8422B4650C689768004DA37D /* Default */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Default;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 29B97313FDCFA39411CA2CEA /* Project object */;
+}
