@@ -1,6 +1,9 @@
 #labels Featured
 AirMoose is presently using a very simple incrementing number for versioning, this does not mean that "Version 1" is of a 1.0-release standard.
 
+===Version 2===
+ * Cosmetic Changes Regarding Toolbar Customisation.
+
 ===Version 1===
  * Removed custom audio, now uses OS X sounds Glass and Submarine.
  * Growl support.
