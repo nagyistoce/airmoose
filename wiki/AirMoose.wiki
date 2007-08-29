@@ -1,0 +1,11 @@
+#labels Featured
+= Change-log =
+
+===Version 1===
+ * Removed custom audio, now uses OS X sounds Glass and Submarine.
+ * Growl support.
+ * Sparkle integration.
+
+===v0.1 / 0.1.1===
+ * Initial Release
+
