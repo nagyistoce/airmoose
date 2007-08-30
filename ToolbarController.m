@@ -153,21 +153,18 @@ return [NSArray arrayWithObjects: NSToolbarFlexibleSpaceItemIdentifier,
 
 -(NSArray *)toolbarAllowedItemIdentifiers:(NSToolbar *)toolbar {
 
-return [NSArray arrayWithObjects: NSToolbarFlexibleSpaceItemIdentifier,
-								  AirMooseToggleScan,
-								  NSToolbarSeparatorItemIdentifier,
+return [NSArray arrayWithObjects: AirMooseToggleScan,
 								  AirMooseJoinNetwork,
 								  AirMooseDropNetwork,
-								  NSToolbarSeparatorItemIdentifier,
 								  AirMooseOpenLog,
 								  AirMooseSaveLog,
-								  NSToolbarSeparatorItemIdentifier,
 								  AirMooseShowLog,
 								  AirMooseClearLog,
-								  NSToolbarSeparatorItemIdentifier,
 								  AirMoosePrefs,
-								  AirMooseStatus, 
-								  NSToolbarFlexibleSpaceItemIdentifier, nil];
+								  AirMooseStatus,
+								  NSToolbarSeparatorItemIdentifier,
+								  NSToolbarFlexibleSpaceItemIdentifier, 
+								  NSToolbarCustomizeToolbarItemIdentifier, nil];
 }
 
 @end
