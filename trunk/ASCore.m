@@ -377,9 +377,12 @@ NSMutableDictionary *ret = [NSMutableDictionary dictionary];
 [ret setObject:vend forKey:@"vend"];
 
 if (info->flags & kWINetworkEncryptedFlag) {
-[ret setObject:@"Yes" forKey:@"wep"];
+
+	[ret setObject:@"Yes" forKey:@"wep"];
+	//[ret setObject:FOO forKey:@"wep"];
 } else {
-[ret setObject:@"No" forKey:@"wep"];
+	[ret setObject:@"No" forKey:@"wep"];
+	//[ret setObject:FOO forKey:@"wep"];
 }
 
 
