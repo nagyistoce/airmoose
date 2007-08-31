@@ -1,0 +1,36 @@
+{
+    IBClasses = (
+        {CLASS = FirstResponder; LANGUAGE = ObjC; SUPERCLASS = NSObject; }, 
+        {
+            ACTIONS = {setSparkleInterval = id; }; 
+            CLASS = PrefsController; 
+            LANGUAGE = ObjC; 
+            OUTLETS = {
+                autoJoinNetworksCheckBox = NSButton; 
+                checkForUpdatesPopupButton = NSPopUpButton; 
+                checkNowButton = NSButton; 
+                checkNowProgressIndicator = NSProgressIndicator; 
+                currentVersionTextField = NSTextField; 
+                generalView = NSView; 
+                protectedWepPopupButton = NSPopUpButton; 
+                protectedWpaPopupButton = NSPopUpButton; 
+                soundsView = NSView; 
+                sparkleUpdater = SUUpdater; 
+                unprotectedPopupButton = NSPopUpButton; 
+                updateIntervalSlider = NSSlider; 
+                updateIntervalValue = NSTextField; 
+                updaterView = NSView; 
+                useSoundsCheckBox = NSButton; 
+            }; 
+            SUPERCLASS = NSWindowController; 
+        }, 
+        {CLASS = PrefsWindow; LANGUAGE = ObjC; SUPERCLASS = NSWindow; }, 
+        {
+            ACTIONS = {checkForUpdates = id; }; 
+            CLASS = SUUpdater; 
+            LANGUAGE = ObjC; 
+            SUPERCLASS = NSObject; 
+        }
+    ); 
+    IBVersion = 1; 
+}

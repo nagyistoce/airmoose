@@ -3,6 +3,8 @@
 #import <Foundation/Foundation.h>
 #import <Growl/Growl.h>
 
+#import "PrefsController.h"
+
 @interface MainController : NSObject <GrowlApplicationBridgeDelegate> {
 IBOutlet NSTableView *entryView;
 IBOutlet NSTableView *logView;
@@ -30,6 +32,8 @@ IBOutlet NSButton *joinConnectBtn;
 
 NSString *selSSID;
 BOOL selIsWEP;
+
+PrefsController * prefsController;
 }
 
 

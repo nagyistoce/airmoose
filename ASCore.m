@@ -489,31 +489,29 @@ return canCurConn;
 }
 
 -(void)canAutoConnect:(BOOL)yn {
-canAutoConnect = yn;
+	[[NSUserDefaults standardUserDefaults] setBool: yn forKey: @"AutoJoin"];
 }
 
 -(BOOL)canAutoConnect {
-return canAutoConnect;
+	return [[NSUserDefaults standardUserDefaults] boolForKey: @"AutoJoin"];
 }
 
 -(void)canPlaySound:(BOOL)yn {
-canPlaySound = yn;
+	[[NSUserDefaults standardUserDefaults] setBool: yn forKey: @"UseSounds"];
 }
 
 -(BOOL)canPlaySound {
-return canPlaySound;
+	return [[NSUserDefaults standardUserDefaults] boolForKey: @"UseSounds"];
 }
 
 -(void)playWEPSound {
-if ([self canPlaySound] == YES) {
-[[NSSound soundNamed:@"Submarine"] play];
-}
+	if ([self canPlaySound] == YES)
+		[[NSSound soundNamed: [[NSUserDefaults standardUserDefaults] objectForKey: @"ProtectedWepSound"]] play];
 }
 
 -(void)playNoWEPSound {
-if ([self canPlaySound] == YES) {
-[[NSSound soundNamed:@"Glass"] play];
-}
+	if ([self canPlaySound] == YES)
+		[[NSSound soundNamed: [[NSUserDefaults standardUserDefaults] objectForKey: @"UnprotectedSound"]] play];
 }
 
 -(void)shouldNotify:(BOOL)yn {

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple Computer//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>AutoJoin</key>
+	<true/>
+	<key>ProtectedWepSound</key>
+	<string>Submarine</string>
+	<key>ProtectedWpaSound</key>
+	<string>Glass</string>
+	<key>ScanInterval</key>
+	<real>10</real>
+	<key>UnprotectedSound</key>
+	<string>Glass</string>
+	<key>UseSounds</key>
+	<false/>
+</dict>
+</plist>
