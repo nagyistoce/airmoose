@@ -46,6 +46,14 @@
 		8D11072B0486CEB800E47090 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 089C165CFE840E0CC02AAC07 /* InfoPlist.strings */; };
 		8D11072D0486CEB800E47090 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 29B97316FDCFA39411CA2CEA /* main.m */; settings = {ATTRIBUTES = (); }; };
 		8D11072F0486CEB800E47090 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1058C7A1FEA54F0111CA2CBB /* Cocoa.framework */; };
+		9F6DE72F0C883813005E83C6 /* SoundPref.tif in Resources */ = {isa = PBXBuildFile; fileRef = 9F6DE72D0C883813005E83C6 /* SoundPref.tif */; };
+		9F6DE7300C883813005E83C6 /* UpdatePref.tif in Resources */ = {isa = PBXBuildFile; fileRef = 9F6DE72E0C883813005E83C6 /* UpdatePref.tif */; };
+		9F6DE7480C883B3F005E83C6 /* Defaults.plist in Resources */ = {isa = PBXBuildFile; fileRef = 9F6DE7470C883B3F005E83C6 /* Defaults.plist */; };
+		9FF186F40C880EAA00838388 /* PrefsWindow.h in Headers */ = {isa = PBXBuildFile; fileRef = 9FF186F20C880EAA00838388 /* PrefsWindow.h */; };
+		9FF186F50C880EAA00838388 /* PrefsWindow.m in Sources */ = {isa = PBXBuildFile; fileRef = 9FF186F30C880EAA00838388 /* PrefsWindow.m */; };
+		9FF187010C88100200838388 /* PrefsWindow.nib in Resources */ = {isa = PBXBuildFile; fileRef = 9FF187000C88100200838388 /* PrefsWindow.nib */; };
+		9FF187150C8814BD00838388 /* PrefsController.h in Headers */ = {isa = PBXBuildFile; fileRef = 9FF187130C8814BD00838388 /* PrefsController.h */; };
+		9FF187160C8814BD00838388 /* PrefsController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9FF187140C8814BD00838388 /* PrefsController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -104,6 +112,14 @@
 		84ED54F10C857D6D006EF16C /* sparkle.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = sparkle.png; sourceTree = "<group>"; };
 		8D1107310486CEB800E47090 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
 		8D1107320486CEB800E47090 /* AirMoose.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AirMoose.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		9F6DE72D0C883813005E83C6 /* SoundPref.tif */ = {isa = PBXFileReference; lastKnownFileType = image.tiff; path = SoundPref.tif; sourceTree = "<group>"; };
+		9F6DE72E0C883813005E83C6 /* UpdatePref.tif */ = {isa = PBXFileReference; lastKnownFileType = image.tiff; path = UpdatePref.tif; sourceTree = "<group>"; };
+		9F6DE7470C883B3F005E83C6 /* Defaults.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist; path = Defaults.plist; sourceTree = "<group>"; };
+		9FF186F20C880EAA00838388 /* PrefsWindow.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PrefsWindow.h; sourceTree = "<group>"; };
+		9FF186F30C880EAA00838388 /* PrefsWindow.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PrefsWindow.m; sourceTree = "<group>"; };
+		9FF187000C88100200838388 /* PrefsWindow.nib */ = {isa = PBXFileReference; lastKnownFileType = wrapper.nib; path = PrefsWindow.nib; sourceTree = "<group>"; };
+		9FF187130C8814BD00838388 /* PrefsController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PrefsController.h; sourceTree = "<group>"; };
+		9FF187140C8814BD00838388 /* PrefsController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PrefsController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -164,6 +180,7 @@
 		29B97314FDCFA39411CA2CEA /* AirStumbler */ = {
 			isa = PBXGroup;
 			children = (
+				9FF186FF0C880F5900838388 /* Preferences */,
 				8375E1C507C19054003EEC1E /* Import */,
 				080E96DDFE201D6D7F000001 /* Classes */,
 				29B97315FDCFA39411CA2CEA /* Other Sources */,
@@ -186,22 +203,13 @@
 		29B97317FDCFA39411CA2CEA /* Resources */ = {
 			isa = PBXGroup;
 			children = (
+				9F6DE70C0C8834A8005E83C6 /* Images */,
 				84ED54F10C857D6D006EF16C /* sparkle.png */,
 				838630D007C6D29F003A4A10 /* Vendor.plist */,
-				8375E4E907C1DC63003EEC1E /* Stat.tif */,
-				8375E4EA07C1DC64003EEC1E /* Clean.tif */,
-				8375E4EB07C1DC64003EEC1E /* Drop.tif */,
-				8375E4EC07C1DC64003EEC1E /* Join.tif */,
-				8375E4ED07C1DC64003EEC1E /* Open.tif */,
-				8375E4EE07C1DC64003EEC1E /* Pref.tif */,
-				8375E4EF07C1DC64003EEC1E /* Save.tif */,
-				8375E4F007C1DC64003EEC1E /* Toggle.tif */,
-				8375E4F107C1DC64003EEC1E /* Show.tif */,
 				8D1107310486CEB800E47090 /* Info.plist */,
 				089C165CFE840E0CC02AAC07 /* InfoPlist.strings */,
 				29B97318FDCFA39411CA2CEA /* MainMenu.nib */,
 				84C4D15E0C68A7BE0078E569 /* AirMoose.icns */,
-				8456791E0C6CB0D9005BE43A /* stop.tif */,
 				84296BA50C71DB8900741750 /* Credits.html */,
 				842792DF0C7300F400A3B301 /* AirMooseDocIcon.icns */,
 				844975520C79A5B3001AAB7C /* AlertWep.aiff */,
@@ -274,6 +282,38 @@
 			name = ToolbarController;
 			sourceTree = "<group>";
 		};
+		9F6DE70C0C8834A8005E83C6 /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				8456791E0C6CB0D9005BE43A /* stop.tif */,
+				8375E4E907C1DC63003EEC1E /* Stat.tif */,
+				8375E4EA07C1DC64003EEC1E /* Clean.tif */,
+				8375E4EB07C1DC64003EEC1E /* Drop.tif */,
+				8375E4EC07C1DC64003EEC1E /* Join.tif */,
+				8375E4ED07C1DC64003EEC1E /* Open.tif */,
+				8375E4EE07C1DC64003EEC1E /* Pref.tif */,
+				8375E4EF07C1DC64003EEC1E /* Save.tif */,
+				8375E4F007C1DC64003EEC1E /* Toggle.tif */,
+				8375E4F107C1DC64003EEC1E /* Show.tif */,
+			);
+			name = Images;
+			sourceTree = "<group>";
+		};
+		9FF186FF0C880F5900838388 /* Preferences */ = {
+			isa = PBXGroup;
+			children = (
+				9F6DE7470C883B3F005E83C6 /* Defaults.plist */,
+				9FF187130C8814BD00838388 /* PrefsController.h */,
+				9FF187140C8814BD00838388 /* PrefsController.m */,
+				9FF187000C88100200838388 /* PrefsWindow.nib */,
+				9F6DE72D0C883813005E83C6 /* SoundPref.tif */,
+				9F6DE72E0C883813005E83C6 /* UpdatePref.tif */,
+				9FF186F20C880EAA00838388 /* PrefsWindow.h */,
+				9FF186F30C880EAA00838388 /* PrefsWindow.m */,
+			);
+			name = Preferences;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
@@ -288,6 +328,8 @@
 				8375E44407C1CAB9003EEC1E /* ToolbarController.h in Headers */,
 				837048F007C4261500D1BB0E /* ASOutput.h in Headers */,
 				8375411707C53B66000FF7A9 /* PrefController.h in Headers */,
+				9FF186F40C880EAA00838388 /* PrefsWindow.h in Headers */,
+				9FF187150C8814BD00838388 /* PrefsController.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -353,6 +395,10 @@
 				844975530C79A5B3001AAB7C /* AlertWep.aiff in Resources */,
 				844975550C79A5B4001AAB7C /* AlertNoWep.aiff in Resources */,
 				84ED54F20C857D6D006EF16C /* sparkle.png in Resources */,
+				9FF187010C88100200838388 /* PrefsWindow.nib in Resources */,
+				9F6DE72F0C883813005E83C6 /* SoundPref.tif in Resources */,
+				9F6DE7300C883813005E83C6 /* UpdatePref.tif in Resources */,
+				9F6DE7480C883B3F005E83C6 /* Defaults.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -369,6 +415,8 @@
 				8375E44507C1CAB9003EEC1E /* ToolbarController.m in Sources */,
 				837048F107C4261500D1BB0E /* ASOutput.m in Sources */,
 				8375411807C53B66000FF7A9 /* PrefController.m in Sources */,
+				9FF186F50C880EAA00838388 /* PrefsWindow.m in Sources */,
+				9FF187160C8814BD00838388 /* PrefsController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

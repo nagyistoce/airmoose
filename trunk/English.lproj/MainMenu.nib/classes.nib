@@ -17,6 +17,7 @@
                 rowSelected = id; 
                 saveLogSelected = id; 
                 showLogSelected = id; 
+                showPreferenceWindow = id; 
                 startAnimation = id; 
                 stopAnimation = id; 
                 toggleScanSelected = id; 
@@ -63,9 +64,12 @@
                 labelFld = NSTextField; 
                 mainWin = NSWindow; 
                 prefWin = NSWindow; 
+                protectedWepSound = NSPopUpButton; 
+                protectedWpaSound = NSPopUpButton; 
                 saveBtn = NSButton; 
                 secondFld = NSTextField; 
                 soundBtn = NSButton; 
+                unprotectedSound = NSPopUpButton; 
             }; 
             SUPERCLASS = NSObject; 
         }, 
