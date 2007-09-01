@@ -5,20 +5,20 @@
 
 
 @interface ASCore : NSObject {
-NSTimer *coreTimer;
-NSDictionary *venDict;
-NSMutableDictionary *curConnStore;
-NSMutableArray *stumEntries;
-NSMutableArray *stumEntriesLog;
-WirelessContextPtr wiContext;
-NSNumber *updInterval;
-BOOL contextConn;
-BOOL isScanning;
-BOOL canStumble;
-BOOL canCurConn;
-BOOL canPlaySound;
-BOOL canAutoConnect;
-BOOL shouldNotify;
+    NSTimer *coreTimer;
+    NSDictionary *venDict;
+    NSMutableDictionary *curConnStore;
+    NSMutableArray *stumEntries;
+    NSMutableArray *stumEntriesLog;
+    WirelessContextPtr wiContext;
+    NSNumber *updInterval;
+    BOOL contextConn;
+    BOOL isScanning;
+    BOOL canStumble;
+    BOOL canCurConn;
+    BOOL canPlaySound;
+    BOOL canAutoConnect;
+    BOOL shouldNotify;
 }
 
 +(ASCore *)sharedCore;

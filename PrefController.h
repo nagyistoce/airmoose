@@ -4,20 +4,20 @@
 
 
 @interface PrefController : NSObject {
-IBOutlet NSWindow *prefWin;
-IBOutlet NSWindow *mainWin;
-IBOutlet NSButton *soundBtn;
-IBOutlet NSButton *joinBtn;
-IBOutlet NSButton *saveBtn;
-IBOutlet NSButton *cancelBtn;
-IBOutlet NSSlider *intervalSld;
-IBOutlet NSTextField *intervalFld;
-IBOutlet NSTextField *labelFld;
-IBOutlet NSTextField *secondFld;
-
-BOOL useSounds;
-BOOL useAutoJoin;
-float updInterval;
+    IBOutlet NSWindow *prefWin;
+    IBOutlet NSWindow *mainWin;
+    IBOutlet NSButton *soundBtn;
+    IBOutlet NSButton *joinBtn;
+    IBOutlet NSButton *saveBtn;
+    IBOutlet NSButton *cancelBtn;
+    IBOutlet NSSlider *intervalSld;
+    IBOutlet NSTextField *intervalFld;
+    IBOutlet NSTextField *labelFld;
+    IBOutlet NSTextField *secondFld;
+    
+    BOOL useSounds;
+    BOOL useAutoJoin;
+    float updInterval;
 }
 
 -(BOOL)useSounds;
