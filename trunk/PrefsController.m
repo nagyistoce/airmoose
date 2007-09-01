@@ -19,7 +19,6 @@
 #define SPARKLE_NEVER @"Never"
 
 static PrefsController * _sharedPrefsController = nil;
-static NSArray		   * _sparkleIntervalAllowedIdentifiers = nil;
 
 @interface PrefsController (Private)
 
