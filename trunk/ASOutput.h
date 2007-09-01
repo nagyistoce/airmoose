@@ -4,7 +4,7 @@
 
 
 @interface ASOutput : NSObject {
-
+    
 }
 
 +(ASOutput *)sharedOutput;

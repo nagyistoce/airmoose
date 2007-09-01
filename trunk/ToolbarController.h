@@ -4,10 +4,10 @@
 
 
 @interface ToolbarController : NSObject {
-IBOutlet NSWindow *window;
-IBOutlet NSDrawer *statDrawer;
-IBOutlet id mainControl;
-NSToolbar *toolbar;
+    IBOutlet NSWindow *window;
+    IBOutlet NSDrawer *statDrawer;
+    IBOutlet id mainControl;
+    NSToolbar *toolbar;
 }
 
 -(void)load;

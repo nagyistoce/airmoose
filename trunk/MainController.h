@@ -6,34 +6,34 @@
 #import "PrefsController.h"
 
 @interface MainController : NSObject <GrowlApplicationBridgeDelegate> {
-IBOutlet NSTableView *entryView;
-IBOutlet NSTableView *logView;
-
-IBOutlet NSProgressIndicator *snooch;
-
-IBOutlet NSTextField *statusFld;
-IBOutlet NSTextField *curConnName;
-IBOutlet NSTextField *curConnMAC;
-IBOutlet NSTextField *curConnSignal;
-IBOutlet NSTextField *curConnComm;
-IBOutlet NSTextField *curConnNoise;
-IBOutlet NSTextField *curConnLink;
-
-IBOutlet NSWindow *mainWindow;
-IBOutlet NSWindow *prefWindow;
-IBOutlet NSWindow *logWindow;
-IBOutlet NSDrawer *statDrawer;
-
-IBOutlet id prefControl;
-
-IBOutlet NSWindow *joinWindow;
-IBOutlet NSTextField *joinPassFld;
-IBOutlet NSButton *joinConnectBtn;
-
-NSString *selSSID;
-BOOL selIsWEP;
-
-PrefsController * prefsController;
+    IBOutlet NSTableView *entryView;
+    IBOutlet NSTableView *logView;
+    
+    IBOutlet NSProgressIndicator *snooch;
+    
+    IBOutlet NSTextField *statusFld;
+    IBOutlet NSTextField *curConnName;
+    IBOutlet NSTextField *curConnMAC;
+    IBOutlet NSTextField *curConnSignal;
+    IBOutlet NSTextField *curConnComm;
+    IBOutlet NSTextField *curConnNoise;
+    IBOutlet NSTextField *curConnLink;
+    
+    IBOutlet NSWindow *mainWindow;
+    IBOutlet NSWindow *prefWindow;
+    IBOutlet NSWindow *logWindow;
+    IBOutlet NSDrawer *statDrawer;
+    
+    IBOutlet id prefControl;
+    
+    IBOutlet NSWindow *joinWindow;
+    IBOutlet NSTextField *joinPassFld;
+    IBOutlet NSButton *joinConnectBtn;
+    
+    NSString *selSSID;
+    BOOL selIsWEP;
+    
+	PrefsController *prefsController;
 }
 
 

@@ -30,7 +30,7 @@
 //	
 //	return self;
 //}
-
+    
 -(void)awakeFromNib {
 	[GrowlApplicationBridge setGrowlDelegate:self];
 	[self registerNote];
@@ -98,7 +98,7 @@
 	NSWindow * window = [[PrefsController sharedPrefsController] window];
     if (![window isVisible])
         [window center];
-
+    
     [window makeKeyAndOrderFront: nil];
 }
 
