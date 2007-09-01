@@ -69,8 +69,7 @@ static PrefsController * _sharedPrefsController = nil;
 
 - (void) dealloc
 {
-	if (_sparkleIntervalAllowedIdentifiers != nil)
-		[_sparkleIntervalAllowedIdentifiers dealloc];
+	[_sparkleIntervalAllowedIdentifiers dealloc];
 	[systemSounds dealloc];
 	[super dealloc];
 }
@@ -147,9 +146,10 @@ static PrefsController * _sharedPrefsController = nil;
 // TODO: Check to see if using these in KeyValueCoding might actually be causing a memory leak
 - (NSArray *) sparkleIntervalAllowedItemIdentifiers
 {
-	if (_sparkleIntervalAllowedIdentifiers == nil)
-		_sparkleIntervalAllowedIdentifiers = [NSArray arrayWithObjects: SPARKLE_DAILY, SPARKLE_WEEKLY, SPARKLE_NEVER, nil];
-	return _sparkleIntervalAllowedIdentifiers;
+//	if (_sparkleIntervalAllowedIdentifiers == nil)
+//		_sparkleIntervalAllowedIdentifiers = [NSArray arrayWithObjects: SPARKLE_DAILY, SPARKLE_WEEKLY, SPARKLE_NEVER, nil];
+//	return _sparkleIntervalAllowedIdentifiers;
+	return [NSArray arrayWithObjects: SPARKLE_DAILY, SPARKLE_WEEKLY, SPARKLE_NEVER, nil];
 }
 
 - (int) sparkleIntervalFromIdentifier: (NSString *) identifier
