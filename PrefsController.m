@@ -45,14 +45,6 @@ static PrefsController * _sharedPrefsController = nil;
 		
 		// Set the version
 		[currentVersionTextField setStringValue: @"1.1"];
-		
-		// Set the sparkle intervals
-		[checkForUpdatesPopupButton addItemsWithTitles: [self sparkleIntervalAllowedItemIdentifiers]];
-		[checkForUpdatesPopupButton selectItemWithTitle: [self sparkleInterval]];
-		[checkForUpdatesPopupButton synchronizeTitleAndSelectedItem];
-		
-		NSLog(@"Current Sparkle Interval is %@, index of this is %d",
-			[self sparkleInterval], [checkForUpdatesPopupButton indexOfItemWithTitle: [self sparkleInterval]]);
         
         // Get the system sounds
         NSMutableArray *sounds = [NSMutableArray array];
@@ -181,11 +173,9 @@ static PrefsController * _sharedPrefsController = nil;
 
 - (IBAction) setSparkleInterval: (id) sender
 {
-	NSString *identifier = [sender titleOfSelectedItem];
-	
 	// We can set the user default to 0 and it is the same as being off - we hope
-	[sparkleUpdater scheduleCheckWithInterval: [self sparkleIntervalFromIdentifier: identifier]];
-	[[NSUserDefaults standardUserDefaults] setInteger: [self sparkleIntervalFromIdentifier: identifier] 
+	[sparkleUpdater scheduleCheckWithInterval: [self sparkleIntervalFromIdentifier: sender]];
+	[[NSUserDefaults standardUserDefaults] setInteger: [self sparkleIntervalFromIdentifier: sender] 
 											   forKey: SUScheduledCheckIntervalKey];
 }
 
