@@ -58,7 +58,7 @@ static PrefsController * _sharedPrefsController = nil;
         NSMutableArray *sounds = [NSMutableArray array];
         NSEnumerator *soundsEnumerator;
         
-        if (soundsEnumerator = [[NSFileManager defaultManager] enumeratorAtPath: @"System/Library/Sounds"])
+        if (soundsEnumerator = [[NSFileManager defaultManager] enumeratorAtPath: @"/System/Library/Sounds"])
 		{
             NSString *sound;
             while ((sound = [soundsEnumerator nextObject]))
