@@ -12,7 +12,7 @@
 @interface PrefsController : NSWindowController {
 	NSUserDefaults					*_userDefaults;
 	NSArray							*systemSounds;
-	NSArray							*_sparkleIntervalAllowedIdentifiers = nil;
+	NSArray							*_sparkleIntervalAllowedIdentifiers;	//< Not currently used.
 	
 	// Our views
 	IBOutlet NSView					*generalView,
