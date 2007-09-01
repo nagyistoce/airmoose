@@ -19,6 +19,7 @@
 #define SPARKLE_NEVER @"Never"
 
 static PrefsController * _sharedPrefsController = nil;
+static NSArray		   * _sparkleIntervalAllowedIdentifiers = nil;
 
 @interface PrefsController (Private)
 
@@ -69,6 +70,8 @@ static PrefsController * _sharedPrefsController = nil;
 
 - (void) dealloc
 {
+	if (_sparkleIntervalAllowedIdentifiers != nil)
+		[_sparkleIntervalAllowedIdentifiers dealloc];
 	[systemSounds dealloc];
 	[super dealloc];
 }
@@ -142,9 +145,12 @@ static PrefsController * _sharedPrefsController = nil;
     return [NSArray arrayWithObjects: TOOLBAR_GENERAL, TOOLBAR_SOUNDS, TOOLBAR_UPDATER, nil];
 }
 
+// TODO: Check to see if using these in KeyValueCoding might actually be causing a memory leak
 - (NSArray *) sparkleIntervalAllowedItemIdentifiers
 {
-	return [NSArray arrayWithObjects: SPARKLE_DAILY, SPARKLE_WEEKLY, SPARKLE_NEVER, nil];
+	if (_sparkleIntervalAllowedIdentifiers == nil)
+		_sparkleIntervalAllowedIdentifiers = [NSArray arrayWithObjects: SPARKLE_DAILY, SPARKLE_WEEKLY, SPARKLE_NEVER, nil];
+	return _sparkleIntervalAllowedIdentifiers;
 }
 
 - (int) sparkleIntervalFromIdentifier: (NSString *) identifier
