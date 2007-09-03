@@ -35,13 +35,13 @@
 		844975530C79A5B3001AAB7C /* AlertWep.aiff in Resources */ = {isa = PBXBuildFile; fileRef = 844975520C79A5B3001AAB7C /* AlertWep.aiff */; };
 		844975550C79A5B4001AAB7C /* AlertNoWep.aiff in Resources */ = {isa = PBXBuildFile; fileRef = 844975540C79A5B4001AAB7C /* AlertNoWep.aiff */; };
 		8456791F0C6CB0D9005BE43A /* stop.tif in Resources */ = {isa = PBXBuildFile; fileRef = 8456791E0C6CB0D9005BE43A /* stop.tif */; };
+		84652AE80C8C41A70015217F /* AirMoose_Prefix.pch in Headers */ = {isa = PBXBuildFile; fileRef = 84652AE70C8C41A70015217F /* AirMoose_Prefix.pch */; };
 		84AB01B60C8572DB0024A334 /* Sparkle.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 84AB01B50C8572DB0024A334 /* Sparkle.framework */; };
 		84AB01D00C8573220024A334 /* Sparkle.framework in CopyFiles */ = {isa = PBXBuildFile; fileRef = 84AB01B50C8572DB0024A334 /* Sparkle.framework */; };
 		84C4D15F0C68A7BE0078E569 /* AirMoose.icns in Resources */ = {isa = PBXBuildFile; fileRef = 84C4D15E0C68A7BE0078E569 /* AirMoose.icns */; };
 		84ED532E0C8577B3006EF16C /* Growl.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 84ED532D0C8577B3006EF16C /* Growl.framework */; };
 		84ED53310C8577B5006EF16C /* Growl.framework in CopyFiles */ = {isa = PBXBuildFile; fileRef = 84ED532D0C8577B3006EF16C /* Growl.framework */; };
 		84ED54F20C857D6D006EF16C /* sparkle.png in Resources */ = {isa = PBXBuildFile; fileRef = 84ED54F10C857D6D006EF16C /* sparkle.png */; };
-		8D1107280486CEB800E47090 /* AirStumbler_Prefix.pch in Headers */ = {isa = PBXBuildFile; fileRef = 32CA4F630368D1EE00C91783 /* AirStumbler_Prefix.pch */; };
 		8D11072A0486CEB800E47090 /* MainMenu.nib in Resources */ = {isa = PBXBuildFile; fileRef = 29B97318FDCFA39411CA2CEA /* MainMenu.nib */; };
 		8D11072B0486CEB800E47090 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 089C165CFE840E0CC02AAC07 /* InfoPlist.strings */; };
 		8D11072D0486CEB800E47090 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 29B97316FDCFA39411CA2CEA /* main.m */; settings = {ATTRIBUTES = (); }; };
@@ -77,7 +77,6 @@
 		29B97319FDCFA39411CA2CEA /* English */ = {isa = PBXFileReference; lastKnownFileType = wrapper.nib; name = English; path = English.lproj/MainMenu.nib; sourceTree = "<group>"; };
 		29B97324FDCFA39411CA2CEA /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = /System/Library/Frameworks/AppKit.framework; sourceTree = "<absolute>"; };
 		29B97325FDCFA39411CA2CEA /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = /System/Library/Frameworks/Foundation.framework; sourceTree = "<absolute>"; };
-		32CA4F630368D1EE00C91783 /* AirStumbler_Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AirStumbler_Prefix.pch; sourceTree = "<group>"; };
 		837048EE07C4261500D1BB0E /* ASOutput.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ASOutput.h; sourceTree = "<group>"; };
 		837048EF07C4261500D1BB0E /* ASOutput.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ASOutput.m; sourceTree = "<group>"; };
 		8375411507C53B66000FF7A9 /* PrefController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PrefController.h; sourceTree = "<group>"; };
@@ -106,6 +105,7 @@
 		844975520C79A5B3001AAB7C /* AlertWep.aiff */ = {isa = PBXFileReference; lastKnownFileType = audio.aiff; path = AlertWep.aiff; sourceTree = "<group>"; };
 		844975540C79A5B4001AAB7C /* AlertNoWep.aiff */ = {isa = PBXFileReference; lastKnownFileType = audio.aiff; path = AlertNoWep.aiff; sourceTree = "<group>"; };
 		8456791E0C6CB0D9005BE43A /* stop.tif */ = {isa = PBXFileReference; lastKnownFileType = image.tiff; path = stop.tif; sourceTree = "<group>"; };
+		84652AE70C8C41A70015217F /* AirMoose_Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; path = AirMoose_Prefix.pch; sourceTree = "<group>"; };
 		84AB01B50C8572DB0024A334 /* Sparkle.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Sparkle.framework; sourceTree = "<group>"; };
 		84C4D15E0C68A7BE0078E569 /* AirMoose.icns */ = {isa = PBXFileReference; lastKnownFileType = image.icns; path = AirMoose.icns; sourceTree = "<group>"; };
 		84ED532D0C8577B3006EF16C /* Growl.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Growl.framework; sourceTree = "<group>"; };
@@ -194,7 +194,7 @@
 		29B97315FDCFA39411CA2CEA /* Other Sources */ = {
 			isa = PBXGroup;
 			children = (
-				32CA4F630368D1EE00C91783 /* AirStumbler_Prefix.pch */,
+				84652AE70C8C41A70015217F /* AirMoose_Prefix.pch */,
 				29B97316FDCFA39411CA2CEA /* main.m */,
 			);
 			name = "Other Sources";
@@ -321,7 +321,6 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				8D1107280486CEB800E47090 /* AirStumbler_Prefix.pch in Headers */,
 				8375E13807C17672003EEC1E /* ASCore.h in Headers */,
 				8375E1CA07C19075003EEC1E /* Apple80211.h in Headers */,
 				8375E2AE07C1953F003EEC1E /* MainController.h in Headers */,
@@ -330,6 +329,7 @@
 				8375411707C53B66000FF7A9 /* PrefController.h in Headers */,
 				9FF186F40C880EAA00838388 /* PrefsWindow.h in Headers */,
 				9FF187150C8814BD00838388 /* PrefsController.h in Headers */,
+				84652AE80C8C41A70015217F /* AirMoose_Prefix.pch in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -466,7 +466,7 @@
 				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
 				GCC_OPTIMIZATION_LEVEL = 0;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = AirStumbler_Prefix.pch;
+				GCC_PREFIX_HEADER = AirMoose_Prefix.pch;
 				GCC_WARN_ABOUT_MISSING_PROTOTYPES = NO;
 				GCC_WARN_FOUR_CHARACTER_CONSTANTS = NO;
 				GCC_WARN_UNKNOWN_PRAGMAS = NO;
@@ -511,7 +511,7 @@
 				GCC_ENABLE_TRIGRAPHS = NO;
 				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = AirStumbler_Prefix.pch;
+				GCC_PREFIX_HEADER = AirMoose_Prefix.pch;
 				GCC_WARN_ABOUT_MISSING_PROTOTYPES = NO;
 				GCC_WARN_FOUR_CHARACTER_CONSTANTS = NO;
 				GCC_WARN_UNKNOWN_PRAGMAS = NO;
@@ -553,7 +553,7 @@
 				GCC_ENABLE_TRIGRAPHS = NO;
 				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = AirStumbler_Prefix.pch;
+				GCC_PREFIX_HEADER = AirMoose_Prefix.pch;
 				GCC_WARN_ABOUT_MISSING_PROTOTYPES = NO;
 				GCC_WARN_FOUR_CHARACTER_CONSTANTS = NO;
 				GCC_WARN_UNKNOWN_PRAGMAS = NO;
