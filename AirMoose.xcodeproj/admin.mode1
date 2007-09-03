@@ -204,10 +204,10 @@
 						<key>_historyCapacity</key>
 						<integer>0</integer>
 						<key>bookmark</key>
-						<string>84ED56800C8586CD006EF16C</string>
+						<string>84652C690C8C42BA0015217F</string>
 						<key>history</key>
 						<array>
-							<string>84ED54F70C857E21006EF16C</string>
+							<string>84652AD30C8C40F70015217F</string>
 						</array>
 					</dict>
 					<key>SplitCount</key>
@@ -260,8 +260,6 @@
 			<key>Layout</key>
 			<array>
 				<dict>
-					<key>BecomeActive</key>
-					<true/>
 					<key>ContentConfiguration</key>
 					<dict>
 						<key>PBXBottomSmartGroupGIDs</key>
@@ -298,6 +296,13 @@
 							<key>PBXSmartGroupTreeModuleOutlineStateExpansionKey</key>
 							<array>
 								<string>29B97314FDCFA39411CA2CEA</string>
+								<string>9FF186FF0C880F5900838388</string>
+								<string>8375E1C507C19054003EEC1E</string>
+								<string>080E96DDFE201D6D7F000001</string>
+								<string>29B97315FDCFA39411CA2CEA</string>
+								<string>29B97317FDCFA39411CA2CEA</string>
+								<string>29B97323FDCFA39411CA2CEA</string>
+								<string>19C28FACFE9D520D11CA2CBB</string>
 								<string>1C37FBAC04509CD000000102</string>
 								<string>1C37FABC05509CD000000102</string>
 								<string>1CC0EA4004350EF90041110B</string>
@@ -305,8 +310,7 @@
 							<key>PBXSmartGroupTreeModuleOutlineStateSelectionKey</key>
 							<array>
 								<array>
-									<integer>4</integer>
-									<integer>0</integer>
+									<integer>40</integer>
 								</array>
 							</array>
 							<key>PBXSmartGroupTreeModuleOutlineStateVisibleRectKey</key>
@@ -345,7 +349,7 @@
 								<key>PBXProjectModuleGUID</key>
 								<string>1CE0B20306471E060097A5F4</string>
 								<key>PBXProjectModuleLabel</key>
-								<string>ASCore.m</string>
+								<string>ASOutput.h</string>
 								<key>PBXSplitModuleInNavigatorKey</key>
 								<dict>
 									<key>Split0</key>
@@ -353,11 +357,11 @@
 										<key>PBXProjectModuleGUID</key>
 										<string>1CE0B20406471E060097A5F4</string>
 										<key>PBXProjectModuleLabel</key>
-										<string>ASCore.m</string>
+										<string>ASOutput.h</string>
 										<key>_historyCapacity</key>
 										<integer>0</integer>
 										<key>bookmark</key>
-										<string>84ED567F0C8586CD006EF16C</string>
+										<string>84652C680C8C42BA0015217F</string>
 										<key>history</key>
 										<array>
 											<string>84E8B8EC0C6A1BBA0022E8E9</string>
@@ -379,19 +383,18 @@
 											<string>842791730C72F98B00A3B301</string>
 											<string>842792E40C73014000A3B301</string>
 											<string>848FB3CD0C7B5918002A4BBF</string>
-											<string>848FB3CE0C7B5918002A4BBF</string>
 											<string>848FB3CF0C7B5918002A4BBF</string>
 											<string>848FB5950C7B6059002A4BBF</string>
-											<string>848FB6000C7B6614002A4BBF</string>
 											<string>848FB6010C7B6614002A4BBF</string>
 											<string>84ED54BB0C857896006EF16C</string>
 											<string>84ED54D20C857A6F006EF16C</string>
 											<string>84ED54D80C857AB8006EF16C</string>
-											<string>84ED54EB0C857D55006EF16C</string>
 											<string>84ED54EC0C857D55006EF16C</string>
 											<string>84ED54F30C857E21006EF16C</string>
 											<string>84ED56710C8580BB006EF16C</string>
-											<string>84ED56720C8580BB006EF16C</string>
+											<string>84652C5D0C8C42690015217F</string>
+											<string>84652C650C8C42BA0015217F</string>
+											<string>84652C660C8C42BA0015217F</string>
 										</array>
 										<key>prevStack</key>
 										<array>
@@ -416,7 +419,6 @@
 											<string>8422B4A50C6897A2004DA37D</string>
 											<string>8422B4A60C6897A2004DA37D</string>
 											<string>8422B4CE0C68A5D6004DA37D</string>
-											<string>8422B4D00C68A5D6004DA37D</string>
 											<string>84C4D1720C68A9630078E569</string>
 											<string>84296B8C0C71D9F700741750</string>
 											<string>841B83260C71E504009A27AD</string>
@@ -424,6 +426,8 @@
 											<string>848FB5990C7B6059002A4BBF</string>
 											<string>84ED54F50C857E21006EF16C</string>
 											<string>84ED56730C8580BB006EF16C</string>
+											<string>84652C5E0C8C42690015217F</string>
+											<string>84652C670C8C42BA0015217F</string>
 										</array>
 									</dict>
 									<key>SplitCount</key>
@@ -445,6 +449,8 @@
 							<string>543pt</string>
 						</dict>
 						<dict>
+							<key>BecomeActive</key>
+							<true/>
 							<key>ContentConfiguration</key>
 							<dict>
 								<key>PBXProjectModuleGUID</key>
@@ -481,9 +487,9 @@
 			</array>
 			<key>TableOfContents</key>
 			<array>
-				<string>84ED56750C8580BB006EF16C</string>
+				<string>84652C600C8C42690015217F</string>
 				<string>1CE0B1FE06471DED0097A5F4</string>
-				<string>84ED56760C8580BB006EF16C</string>
+				<string>84652C610C8C42690015217F</string>
 				<string>1CE0B20306471E060097A5F4</string>
 				<string>1CE0B20506471E060097A5F4</string>
 			</array>
@@ -617,10 +623,10 @@
 	<integer>5</integer>
 	<key>WindowOrderList</key>
 	<array>
-		<string>8422B4AC0C6897A2004DA37D</string>
 		<string>1C530D57069F1CE1000CFCEE</string>
-		<string>84ED54E80C857D22006EF16C</string>
+		<string>8422B4AC0C6897A2004DA37D</string>
 		<string>1C0AD2B3069F1EA900FABCE6</string>
+		<string>84ED54E80C857D22006EF16C</string>
 		<string>/Users/admin/Dev/AirMoose/AirMoose.xcodeproj</string>
 	</array>
 	<key>WindowString</key>
@@ -662,6 +668,8 @@
 							<string>458pt</string>
 						</dict>
 						<dict>
+							<key>BecomeActive</key>
+							<true/>
 							<key>ContentConfiguration</key>
 							<dict>
 								<key>PBXProjectModuleGUID</key>
@@ -701,7 +709,7 @@
 			<key>TableOfContents</key>
 			<array>
 				<string>8422B4AC0C6897A2004DA37D</string>
-				<string>84ED56780C8580BB006EF16C</string>
+				<string>84652AEB0C8C41AE0015217F</string>
 				<string>1CD0528F0623707200166675</string>
 				<string>XCMainBuildResultsModuleGUID</string>
 			</array>
@@ -848,7 +856,7 @@
 										<key>PBXProjectModuleGUID</key>
 										<string>1CDD528C0622207200134675</string>
 										<key>PBXProjectModuleLabel</key>
-										<string>ASCore.m</string>
+										<string>InfoPlist.strings</string>
 										<key>StatusBarVisibility</key>
 										<true/>
 									</dict>
@@ -904,8 +912,8 @@
 			<key>TableOfContents</key>
 			<array>
 				<string>1C530D57069F1CE1000CFCEE</string>
-				<string>84ED566E0C8580B4006EF16C</string>
-				<string>84ED566F0C8580B4006EF16C</string>
+				<string>84652C540C8C42230015217F</string>
+				<string>84652C550C8C42230015217F</string>
 				<string>1CDD528C0622207200134675</string>
 				<string>1CD0528E0623707200166675</string>
 			</array>
@@ -1063,9 +1071,9 @@
 			<key>TableOfContents</key>
 			<array>
 				<string>1C0AD2B3069F1EA900FABCE6</string>
-				<string>84ED567D0C8580F7006EF16C</string>
+				<string>84652AEC0C8C41AE0015217F</string>
 				<string>1CD0528B0623707200166675</string>
-				<string>84ED567E0C8580F7006EF16C</string>
+				<string>84652AED0C8C41AE0015217F</string>
 			</array>
 			<key>ToolbarConfiguration</key>
 			<string>xcode.toolbar.config.run</string>
@@ -1074,7 +1082,7 @@
 			<key>WindowToolGUID</key>
 			<string>1C0AD2B3069F1EA900FABCE6</string>
 			<key>WindowToolIsVisible</key>
-			<true/>
+			<false/>
 		</dict>
 		<dict>
 			<key>Identifier</key>
