@@ -39,5 +39,9 @@
 	<string>NSApplication</string>
 	<key>SUFeedURL</key>
 	<string>http://airmoose.googlecode.com/files/appcast.xml</string>
+	<key>CFBundleHelpBookName</key>
+	<string>AirMooseHelp</string>
+	<key>CFBundleHelpBookFolder</key>
+	<string>AirMooseHelp</string>
 </dict>
 </plist>
